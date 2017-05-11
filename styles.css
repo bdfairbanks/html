@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  background-image: url(heros.jpg);
+  width: 100%;
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-family: 'Inknut Antiqua', serif;
+  font-style: extra-bold;
+  font-size: 69px;
+  margin: -17px;
+}
+
+.content{
+  margin: 15%;
+  margin-top: 0px;
+  line-height: 30px;
+  font-family: 'BioRhyme', serif;
+}
+.pic{ float: right;
+}
+.clear{
+  clear: all;
+}
